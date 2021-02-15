@@ -10,17 +10,15 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script defer src="node_modules/swup/dist/swup.min.js"></script>  
-    <script defer src="js/script.js"></script>
   </head>
   <body>
     <main id="swup" class="transition-fade">
       <div class="container">
         <div class="left-wrapper">
           <div class="left-content">
-            <h1>Zinamarie</h1>
-            <h2>
-              Minimalist <span>Designer</span>, <span>Creator</span>, &amp ;
+            <h1 id="fade">Zinamarie</h1>
+            <h2 id="fade2">
+              Minimalist <span>Designer</span>, <span>Creator</span>, &amp;
               Front-end <span>Developer</span>.
             </h2>
             <div class="down-arrow scroll">&darr;</div>
@@ -29,7 +27,7 @@
         </div>
         <div class="right-wrapper">
           <section class="content-container">
-            <div class="content content-inner">
+            <div class="content content-inner" id="fade3">
               <figure>
                 <img src="imgs/me.jpg" alt="" />
               </figure>
@@ -66,7 +64,7 @@
                 <div class="git">
                   <a href="https://github.com/Zmarie">Github</a>
                 </div>
-                <div class="work"><a href="/work">Portfolio</a></div>
+                <div class="work"><a href="/work/index.html">Portfolio</a></div>
                 <div class="contact-me-btn">
                   <a href="/contact/index.html">Contact</a>
                 </div>
@@ -76,5 +74,8 @@
         </div>
       </div>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
