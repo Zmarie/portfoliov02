@@ -93,16 +93,12 @@ h2 {
 
 h1 {
   font-size: clamp(1.875rem, 7.5vw, 3.75rem);
-  /* height: 106px;
-  display: block; */
 }
 
 h2 {
   margin-bottom: 2.5em;
   line-height: 1.5;
   font-size: clamp(1.25em, 2vw, 1.875em);
-  /* height: 130px;
-  display: block; */
 }
 
 h2 span {
@@ -203,7 +199,7 @@ article p {
   letter-spacing: 1px;
   justify-content: center;
   text-align: center;
-  margin: auto;
+  margin: 1.875em auto 1.875em auto;
 }
 
 .git,
