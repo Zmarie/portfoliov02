@@ -333,7 +333,7 @@ article .info p {
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 63.75em) {
   .container {
     display: flex;
     flex-direction: row;
@@ -385,7 +385,7 @@ article .info p {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25em) {
   .content-container {
     width: 80%;
   }
