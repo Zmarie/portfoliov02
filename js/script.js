@@ -1,10 +1,7 @@
-$(document).ready(function() {
-    $('#fade').hide();
-    $('#fade2').hide();
-    $('#fade3').hide();
-    $('#fade').slideDown(3000);
-    $('#fade2').slideDown(2000);          
-    $('#fade3').slideDown(1000);         
+     window.onload = function() {
+    document.getElementById('fade').style.opacity = 1;
+    document.getElementById('fade2').style.opacity = 1;
+    document.getElementById('fade3').style.opacity = 1;
+}; 
 
-} 
-)    
+

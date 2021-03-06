@@ -92,6 +92,21 @@ h2 a {
   color: #fff;
 }
 
+#fade {
+  opacity: 0;
+  transition: .5s;
+}
+
+#fade2 {
+  opacity: 0;
+  transition: .15s;
+}
+
+#fade3 {
+  opacity: 0;
+  transition: 1s;
+}
+
 .down-arrow {
   color: #e5e5e5;
   transition: transform 1s;
